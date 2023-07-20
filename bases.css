@@ -66,11 +66,8 @@ strong {
     justify-items: end;
 }
 
-lista-prefacio img {
-    width: 100%;
-}
-
 .lista-prefacio img {
+    width: 100%;
     margin: 1em 0 0;
 }
  
