@@ -1,6 +1,6 @@
 @import url(header.css);
 @import url(bases.css);
-@import url(bady.css);
+@import url(body.css);
 
 body {
     font-family: 'Nunito Sans', sans-serif;
