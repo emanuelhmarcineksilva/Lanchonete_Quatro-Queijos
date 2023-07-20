@@ -42,10 +42,8 @@
 .lista-prefacio {
     display: grid;
     background: rgb(228, 146, 25);
-    background-size: 400%;
     width: 70%;
     margin: 0 auto 5em;
-    border-radius: 0 0 5px 5px;
     grid-template-columns: 45% 55%;
     border: solid 1em rgba(112, 11, 11, 0.795);
     border-radius: 12px;
@@ -68,11 +66,7 @@ strong {
     justify-items: end;
 }
 
-hr {
-    margin: 0.5em 0 0;
-}
-
-.lista-prefacio img {
+lista-prefacio img {
     width: 100%;
 }
 
@@ -194,4 +188,36 @@ b {
     background: rgba(0, 0, 0, 0.233);
     color: var(--cor-texto);
     border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-contato {
+        width: 90%;
+    }
+
+    .base1 {
+        background-size: 400%;
+    }
+
+    .lista-prefacio {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+
+    .lista-prefacio li {
+        margin: auto 0 auto 1em;
+        color: var(--cor-texto2);
+        font-size: 1em;
+        padding: 1em 0;
+    }
+
+    .mapa {
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .mapa iframe {
+        width: 100%;
+    }
 }
