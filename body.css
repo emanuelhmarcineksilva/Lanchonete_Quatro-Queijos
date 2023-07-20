@@ -127,3 +127,28 @@ h4 img{
     font-size: 0.7em;
     color: var(--cor-criador);
 }
+
+@media screen and (max-width: 600px) {
+
+    .container_navegacao img {
+        width: 60%;
+        margin: 4em auto 0;
+    }
+
+    .navegacao_link {
+        display: none;
+    }
+
+    .subtitulo {
+        font-size: 1.7em;
+    }
+
+    iframe {
+        width: 90%;
+        height: 17em;
+    }
+
+    h4 img {
+        width: 40%;
+    }
+}
