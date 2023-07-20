@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(bases.css);
+@import url(bady.css);
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --sonbreamento: linear-gradient(180deg, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0));
+    --fundo-botao: rgba(0, 0, 0, 0.411);
+    --cor-texto: #FFFFFF;
+    --cor-texto2: #000000;
+    --cor-fundo-base: rgba(247, 181, 0, 0.199);
+    --cor-footer: rgb(31, 31, 31);
+    --cor-criador: rgba(221, 221, 221, 0.733);
+}

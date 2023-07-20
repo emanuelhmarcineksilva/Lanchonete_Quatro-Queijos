@@ -1,0 +1,129 @@
+body {
+    background: var(--cor-fundo-principal);
+}
+
+.titulo-centralizado {
+    color: black;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 30.1vh 0 30.2vh 0;
+}
+
+.titulo-destacado {
+    display: flex;
+    background: var(--sonbreamento);
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sombreamento {
+    background: linear-gradient(180deg, #00000000, rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.726));
+}
+
+.segundo-titulo {
+    color: black;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.terceiro-titulo {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.texto {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding: 1em 0;
+}
+
+.texto a {
+    color: aqua;
+}
+
+.paragrafo-solo {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.5em 0 1em 2em;
+    margin: 0 auto;
+}
+
+.caixa-sobre {
+    width: 80%;
+    background: var(--cor-base-escura);
+    margin: 2em auto;
+    border-radius: 12px;
+    box-shadow: 12px 12px 25px black;
+    padding: 2em 0 0;
+}
+
+.caixa-sobre p {
+    width: 80%;
+    margin: auto;
+}
+
+.segundo-paragrafo {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+
+iframe {
+    width: 50%;
+    height: 24em;
+}
+
+.fases {
+    position: fixed;
+    background-color: black;
+    right: 0;
+    min-height: 4vh;
+    bottom: 37%;
+}
+
+.fases li {
+    padding: 0.8em;
+    color: black;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    background: var(--cor-footer);
+    color: var(--cor-texto);
+    padding: 2em 0 1em;
+}
+
+h4 img{
+    width: 15%;
+}
+
+.copyright {
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+.criador {
+    font-size: 0.7em;
+    color: var(--cor-criador);
+}
